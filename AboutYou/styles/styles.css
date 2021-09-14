@@ -1,0 +1,40 @@
+* /*Curtis Hale
+    ITC 370
+    Week 3 - Pretty About You*/
+
+ {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin-left: 14%;
+    margin-right: 14%;
+    padding: 1%;
+    background-color: azure;
+}
+.body {
+    padding: 2%;
+    background-color: blueviolet;
+    display: flex;
+}
+.title {
+    padding: 3%;
+}
+p {
+    margin:10px;
+}
+h1{
+        font-style:oblique;
+        font-family:'Times New Roman', Times, serif;
+}
+.nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section{
+    display:grid
+    padding-left 30px;
+}
+content-wrap{
+    padding-bottom: 3.5rem;
+}
