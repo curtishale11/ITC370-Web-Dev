@@ -1,0 +1,77 @@
+/*
+Curtis Hale
+9/20/21
+About A Company
+*/
+header {
+    background-color: honeydew;
+    text-align: center;
+    margin-bottom:40px;
+}
+body {
+    background-color:blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    display: grid;
+    text-align: canter;
+}
+
+h2 {
+    padding:20px;
+    font-size:30px;
+}
+
+/* Navigation */
+nav ul {
+    display:flex;
+    list-style:none;
+    background: grey;
+}
+nav ul li {
+    display:inline-flexbox
+}
+
+nav a {
+    float:right;
+    color:hotpink;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: italic;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
+/*Pictures*/
+
+div.main{
+    color:aliceblue;
+    padding-left: 30px;
+    padding-right:30px;
+}
+/* Footer: https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+footer{
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    width: 55%;
+    height: 4rem;
+    color:beige;
+    background-color:cadetblue;
+    text-align: center;
+}
+/*Section Content */
+section.content {
+    color:cyan;
+    background-color: darkgray;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Footer */
+footer {
+    color:crimson;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40 px 0;
+}
