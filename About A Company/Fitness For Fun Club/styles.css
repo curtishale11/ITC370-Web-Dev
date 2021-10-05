@@ -1,0 +1,126 @@
+/*  Curtis Hale     */
+/*  Fit for Fun Fitness styles.css*/
+
+/* index.html */
+
+.mainContent {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    padding: 0px;
+    Margin: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction:column;
+    width: 40px;
+    height: 97%;
+    padding: 3px;
+    margin: 0px;
+    background-color: aliceblue;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12 px;
+    color: #FF0000;
+
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+
+}
+.img {
+    max-width: 50px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid #FFFF;
+
+}
+
+h1 {
+    text-decoration-line: none;
+    padding: 11px;
+    color: #FF0000;
+}
+
+h2 {
+    text-decoration-line: underline;
+    padding: 11px;
+    color: #FF0000;
+}
+
+p {
+    padding: 11px;
+    color: #FF0000;
+    font-weight: italic;
+}
+
+
+/* classes.html */
+
+.classTable {
+    font-size: 14px;
+    width: 100%;
+    border: 2px solid #FFFF;
+    border-collapse: collapse;
+}
+.classTable td, .classTable th {
+    width:15%;
+    padding: 8px;
+    border: 1x solid #9999;
+    vertical-align: top;
+}
+.classTable thead {
+    background-color:aliceblue;
+    color: ffff;
+}
+
+.classTime {
+    color: #FF0000;
+
+}
+
+.classInstructor {
+    font-style: bold; 
+    color: #FF0000;
+
+}
+
+.classTitle {
+    font-weight: italic;
+}
+
+/* info.html */
+
+.formElements {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.formElements div {
+    margin-bottom: 25px;
+}
+
+.formElements input[type=text], .formElements select {
+    display: inline-block;
+    width: 70%;
+    padding: 3px;
+}
+.formElements label {
+    font-size: 14px;
+}
+.formElements #submit {
+    color: #FFFF;
+    background-color: #FF0000;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700px;
+    cursor: pointer;
+    transition:backdrop 10ms all;
+}
+.formelements #submit:hover {
+    background-color: #FF0000;
+}
