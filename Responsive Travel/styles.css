@@ -34,6 +34,7 @@ header{
     width: 95%;
     background-color: #add8e6;
     height: fit-content;
+    text-align: center;
 }
 img {
     max-width: 99%;
@@ -51,10 +52,12 @@ article{
     padding-left: 6px;
     margin-right: 6px;
     padding-right: 6px;
+    line-height: 1.5px;
 }
 article p{
     padding-top: 5px;
     padding-bottom: 14px;
+    line-height: 1.5px;
 }
 footer{
     background-color:aquamarine;
