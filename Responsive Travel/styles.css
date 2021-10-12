@@ -1,0 +1,59 @@
+/*
+    Curtis Hale
+    Responsive Travel
+    10/11/2021
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    color:grey;
+    background-color: white;
+    font-weight: italic;
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+}
+nav li{
+    display:inline-flexbox
+    margin-right:
+    padding-right:
+    border-right: 
+}
+
+nav a:hover{
+    text-decoration: underline overline;
+}
+header{
+    width: 95%;
+    background-color: #add8e6;
+    height: fit-content;
+}
+@media screen and (min-width: 765px) {
+    nav {
+        font-size: 15px;
+        background-color:indigo;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 200;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 0 34px;
+    FINISH THIS CODE WHEN ADD ELEMENTS
+    }
+@media screen and (min-width: 1155 px) {
+    
+}
+}
