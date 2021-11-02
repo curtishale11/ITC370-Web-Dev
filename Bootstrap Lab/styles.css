@@ -7,3 +7,7 @@ body{background-color: 123456}
     box-shadow: 5px 5px 25px 8px grey;
     padding: 25px;
 }
+footer {
+    text-align:center;
+    padding: 15px;
+}
