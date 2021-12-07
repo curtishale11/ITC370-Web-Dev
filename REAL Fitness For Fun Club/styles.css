@@ -67,7 +67,7 @@ p {
     border-collapse: collapse;
 }
 .classTable td, .classTable th {
-    width:15%;
+    width:50%;
     padding: 8px;
     border: 1x solid #9999;
     vertical-align: top;
