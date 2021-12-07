@@ -3,7 +3,7 @@ body{background-color: 123456}
     background-color: white;
     margin-top: 24px;
 }
-.heading {
+.header {
     box-shadow: 5px 5px 25px 8px grey;
     padding: 25px;
 }
