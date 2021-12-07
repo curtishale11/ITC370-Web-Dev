@@ -28,13 +28,6 @@ const racer4 = {
   maxSpeed: 11,
 }
 
-const racer4 = {
-    name: 'racer4',
-    position: 0,
-    minSpeed: 2,
-    maxSpeed: 11,
-}
-
 const racer5 = {
     name: 'racer5',
     position: 0,
