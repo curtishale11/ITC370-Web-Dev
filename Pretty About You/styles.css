@@ -12,7 +12,7 @@ ul.nav{
     margin: auto;
     padding: 0;
     overflow:hidden;
-    background-color: orange;
+    background-color: rgb(206, 16, 63);
 }
 li.nav {
     display:flex;
@@ -20,7 +20,7 @@ li.nav {
     justify-content: space-around;
 }
 li.nav a {
-    display:list-item;
+    display: block;
     color: pink;
     text-align: center;
     padding: 15px 17px;
@@ -39,7 +39,7 @@ body {
     display:flex;
     flex-direction:column-reverse;
     padding-left: 2%;
-    background-color: blueviolet;
+    background-color: rgb(113, 109, 117);
     display: flex;
 }
 title {
