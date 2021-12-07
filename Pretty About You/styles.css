@@ -43,7 +43,7 @@ li.nav {
     justify-content: space-around;
 }
 li.nav a {
-    display:inline-block;
+    display:list-item;
     color: pink;
     text-align: center;
     padding: 15px 17px;
@@ -52,6 +52,7 @@ li.nav a:hover{
     background-color: white;
     color: black;
 }
+
 section{
     display:grid;
     padding-left: 30px;
