@@ -52,3 +52,7 @@ title {
 p {
     margin:10px;
 }
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
