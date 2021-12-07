@@ -67,13 +67,13 @@ p {
     border-collapse: collapse;
 }
 .classTable td, .classTable th {
-    width:15%;
+    width: 15%;
     padding: 6px;
-    border: 1x solid #9999;
+    border: 2x solid #9999;
     vertical-align: top;
 }
 .classTable thead {
-    background-color:aliceblue;
+    background-color:rgb(21, 192, 223);
     color: ffff;
 }
 

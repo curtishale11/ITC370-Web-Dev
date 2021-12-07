@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!--10/4/21 Curtis Hale
+          Fit For Fun Fitness Club-->
+   
+   <meta charset="utf-8">
+   <title>Fitness Class Confirmation</title>  
+   <link href="styles.css" rel="stylessheet" type="text/css">
+   <meta name="viewport" content="width-device-width, initial-scale=1">
+   </head>
+
+   <body>
+       <div id="page-container">
+           <div id="content-wrap"></div>
+
+   <div class="HeaderNav">
+    <nav>
+            <ul>
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./classes.html">Classes</a>a></li>li>
+             <li><a href="./info.html">Information</a></li>
+          </ul>
+        </nav>
+    </div>
+</header>
+<fieldset>
+    <p class style="text-align: center; font-weight: italic;">Thank you for registering for a class</p>
+    <p> Here is a confirmation page of your registration information:</p>
+    <p>First Name:</p><div id="firstname"></div>
+    <p>Last Name: </p><div id="lastname"></div>
+    <p>Email: </p><div i="email"></div>
+    <p>Phone Number: </p><div id="phone"></div>
+    <p>Best way to reach me are: </p><div id="contact"></div>
+    <p>Classes you are interested in: </p><div id="classes"></div>
+    <p>Preferred class time(s)</p> <div id="time"></div>
+</fieldset>
+<script>
+    //get the multiple parameters from the query string
+    const params = new URLSearchParams(window.location.search)
+
+    //check if the form has passed in a First Name value
+    if(params.has('firstname')){
+        let firstname = params.get('firstname');
+        //Put the value into the field
+        document.getElementById("firstname").innerHTML = firstname;
+    } 
+
+    //check if the form has passed in a Last Name value
+    if(params.has('lastname')){
+        let lastname = params.get('lastname');
+        //Put the value into the field
+        document.getElementById("lastname").innerHTML = lastname;
+    }
+
+    //check if the form has passed in an email value
+    if(params.has('email')){
+        let email = params.get('email');
+        //Put the value into the field
+        document.getElementById("email").innerHTML = email;
+    }
+
+    //check if the form has passed in an phone value
+    if(params.has('phone')){
+        let phone = params.get('phone');
+        //Put the value into the field
+        document.getElementById("phone").innerHTML = phone;
+    }
+
+    //check if the form has passed in a contact value (best way to reach me)
+    if(params.has('contact')){
+        let contact = params.get('contact');
+        //Put the value into the field
+        document.getElementById("contact").innerHTML = contact;
+    }
+
+    //check if the form has passed in a prefered class time value
+    if(params.has('time')){
+        let time = params.get('time');
+        //Put the value into the field
+        document.getElementById("time").innerHTML = time;
+    }
+
+   
+
+    //check if the form has passed in a value for classes offered
+    //this field assumes the following types of classes are used in the form checkbox values:
+    //class1=aerobics, class2=cycling, class3=boxing, class4=zumba
+    
+    let classes = "";
+    //if the class has been checked then append it to the variable so we can create a list.
+    if(params.has('class1')){
+        classes += params.get('class1') + ", "; 
+    }
+    if(params.has('class2')){
+        classes += params.get('class2') + ", "; 
+    }
+    if(params.has('class3')){
+        classes += params.get('class3') + ", "; 
+    }
+    if(params.has('class4')){
+        classes += params.get('class4'); 
+    }
+    
+    //Put the appended value into the field
+    document.getElementById("classes").innerHTML = classes;
+
+    
+
+
+</script>
+</body>
+</html>
