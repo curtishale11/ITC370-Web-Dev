@@ -50,14 +50,14 @@ stoplight = document.getElementById('stoplight')
 //adding event for clicking the stoplight
 stoplight.addEventListener('click', function() {
 
-  stoplight.src = "./images/green_light.jpg"
+  stoplight.src = "green_light.jpg"
 
   //setting racers to default avatar
-  img1.src = "./images/avatar1.png"
-  img2.src = "./images/avatar2.jpg"
-  img3.src = "./images/avatar3.jpg"
-  img4.src = "./images/avatar4.jpg"
-  img5.src = "./images/avatar5.jpg"
+  img1.src = "avatar1.png"
+  img2.src = "avatar2.jpg"
+  img3.src = "avatar3.jpg"
+  img4.src = "avatar4.jpg"
+  img5.src = "avatar5.jpg"
 
   //adding interval to move racers
   let raceInterval = setInterval(function(){
@@ -71,23 +71,23 @@ stoplight.addEventListener('click', function() {
     //checking for winner
     if (racer1['position'] >= 800){
       winner = 1
-      winnerImg.src = "./images/avatar1.png"
+      winnerImg.src = "avatar1.png"
     }
     else if (racer2['position'] >= 800){
       winner = 2
-      winnerImg.src = "./images/avatar2.jpg"
+      winnerImg.src = "/avatar2.jpg"
     }
     else if (racer3['position'] >= 800){
       winner = 3
-      winnerImg.src = "./images/avatar3.jpg"
+      winnerImg.src = "avatar3.jpg"
     }
     else if (racer4['position'] >= 800){
       winner = 4
-      winnerImg.src = "./images/avatar4.jpg"
+      winnerImg.src = "avatar4.jpg"
     }
     else if (racer5['position'] >= 800){
         winner = 5
-        winnerImg.src = "./images/avatar5.jpg"
+        winnerImg.src = "avatar5.jpg"
       }
     
     if (winner != 0){
@@ -104,7 +104,7 @@ stoplight.addEventListener('click', function() {
 
       winnerDiv.addEventListener('click', function(){
         //resetting stoplight and winner display
-        stoplight.src = "./images/red_light.jpg"
+        stoplight.src = "red_light.jpg"
         winnerDiv.style.display = 'none'
         winnerText.innerHTML = 'Winner is #'
         //reseting positions of all racers and winner variable
