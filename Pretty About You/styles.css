@@ -41,7 +41,7 @@ body {
 }
 body {
     display:flex;
-    flex-direction:row-reverse;
+    flex-direction:column;
     padding-left: 2%;
     background-color: rgb(113, 109, 117);
     display: flex;
