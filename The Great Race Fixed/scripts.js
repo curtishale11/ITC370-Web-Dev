@@ -75,7 +75,7 @@ stoplight.addEventListener('click', function() {
     }
     else if (racer2['position'] >= 800){
       winner = 2
-      winnerImg.src = "/avatar2.jpg"
+      winnerImg.src = "avatar2.jpg"
     }
     else if (racer3['position'] >= 800){
       winner = 3
@@ -94,11 +94,11 @@ stoplight.addEventListener('click', function() {
       winnerText.innerHTML += winner
       clearInterval(raceInterval)
       //resetting images to idle animation
-      img1.src = "./images/avatar1.png"
-      img2.src = "./images/avatar2.jpg"
-      img3.src = "./images/avatar3.jpg"
-      img4.src = "./images/avatar4.jpg"
-      img5.src = "./images/avatar5.jpg"
+      img1.src = "avatar1.png"
+      img2.src = "avatar2.jpg"
+      img3.src = "avatar3.jpg"
+      img4.src = "avatar4.jpg"
+      img5.src = "avatar5.jpg"
       //displaying winner
       winnerDiv.style.display = 'initial'
 
