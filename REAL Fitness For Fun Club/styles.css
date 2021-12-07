@@ -61,14 +61,14 @@ p {
 /* classes.html */
 
 .classTable {
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
-    border: 2px solid #FFFF;
+    border: 3px solid rgb(19, 17, 17);
     border-collapse: collapse;
 }
 .classTable td, .classTable th {
-    width:50%;
-    padding: 8px;
+    width:15%;
+    padding: 6px;
     border: 1x solid #9999;
     vertical-align: top;
 }
