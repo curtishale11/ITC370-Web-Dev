@@ -5,7 +5,7 @@
           Fit For Fun Fitness Club-->
    
    <meta charset="utf-8">
-   <title>Fitness Class Confirmation</title>  
+   <title>Thank You & Confirmation Page</title>  
    <link href="styles.css" rel="stylessheet" type="text/css">
    <meta name="viewport" content="width-device-width, initial-scale=1">
    </head>
@@ -18,7 +18,7 @@
     <nav>
             <ul>
              <li><a href="./index.html">Home</a></li>
-             <li><a href="./classes.html">Classes</a>a></li>li>
+             <li><a href="./classes.html">Classes</a></li>
              <li><a href="./info.html">Information</a></li>
           </ul>
         </nav>
@@ -85,7 +85,6 @@
 
     //check if the form has passed in a value for classes offered
     //this field assumes the following types of classes are used in the form checkbox values:
-    //class1=aerobics, class2=cycling, class3=boxing, class4=zumba
     
     let classes = "";
     //if the class has been checked then append it to the variable so we can create a list.
@@ -100,6 +99,21 @@
     }
     if(params.has('class4')){
         classes += params.get('class4'); 
+    }
+    if(params.has('class5')){
+        classes += params.get('class5') + ", "; 
+    }
+    if(params.has('class6')){
+        classes += params.get('class6') + ", "; 
+    }
+    if(params.has('class7')){
+        classes += params.get('class7') + ", "; 
+    }
+    if(params.has('class8')){
+        classes += params.get('class8') + ", "; 
+    }
+    if(params.has('class9')){
+        classes += params.get('class9'); 
     }
     
     //Put the appended value into the field
